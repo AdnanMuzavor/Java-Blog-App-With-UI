@@ -15,4 +15,13 @@ On login user gets access to following features:
 - Adding and deleting comments he added.
 - If admin, he/she can get all application information including number of users,blog by each user etc
 
-# The file/folder structure
+# The file roles
+
+Connector.java
+- It connects with MYSQL database using MYSQL JDBC driver
+
+HomeFrame.java
+- It deals with all the UI componenets including creating frames and handling the events.
+
+DBMSProject.java
+- It connects above two files. It gets the Connection object from Connector.java and gives it to HomeFrame.java so that various queries can be executed.
