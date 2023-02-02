@@ -1,6 +1,11 @@
 # Java-Blog-App-With-UI
 Java based GUI + CURD application with MySQL as database and AWT  used for creating GUI along with Swings for supporting table..
 
+## Tech stacks used
+### Frontend :  Java AWT,Swing,JDBC 
+### Backend  :  No backend
+### Database :  MySQL
+### Tools    :  NetBeans IDE
 
 ## Key Features
 
